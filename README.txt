@@ -3,4 +3,6 @@ This JSON Processor project is intended as a simple web application for visualiz
 
 Current Version: 0.2 (Development)
 Version Notes:
-The current vrsion can retrieve JSON data from a CrossRef URL (using jQuery GET method), then displaying on index.HTML. Next steps would be to style these generated <div> elements for easier viewing and creating a search bar element -- the current GET method only gets query from URL determined in script.js.
+The current version can retrieve JSON data from a CrossRef URL (using jQuery GET method), then displaying on index.HTML. Next steps would be to style these generated <div> elements for easier viewing and creating a search bar element -- the current GET method only gets query from URL determined in script.js.
+
+The next version would also need to implement toString method. Some values are currently returned as "[object Object]" as seen on HTML.
