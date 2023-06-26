@@ -1,0 +1,16 @@
+body {
+  margin: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.json-obj { 
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.newP {
+  display: flex;
+  justify-content: space-between;
+}
