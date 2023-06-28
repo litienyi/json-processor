@@ -1,8 +1,9 @@
 INTRODUCTION
 This JSON Processor project is intended as a simple web application for visualizing, filtering, or otherwise processing JSON data. In particular, it is catered to JSON data collected through the CrossRef API.
 
-Current Version: 0.2 (Development)
+Current Version: 1.0 (Beta)
 Version Notes:
-The current version can retrieve JSON data from a CrossRef URL (using jQuery GET method), then displaying on index.HTML. Next steps would be to style these generated <div> elements for easier viewing and creating a search bar element -- the current GET method only gets query from URL determined in script.js.
+Version 1.0 is a funcitonal MVP. Users are able to query the CrossRef database from home.php, and results will show on results.html.
 
-The next version would also need to implement toString method. Some values are currently returned as "[object Object]" as seen on HTML.
+To look forward in the next version:
+The next version will incorporate a search bar and a filter function on results.html.

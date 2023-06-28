@@ -1,0 +1,111 @@
+body {
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px;
+}
+
+/* BIG CONTAINER -- used for spacing out children <div>s vertically */
+.big-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* CORNER TEXT STYLE */
+
+.corner-text {
+    margin: 0;
+    vertical-align: top;
+    width: 25%;
+    /* min-width: 360px; */
+}
+
+.ct-left {
+    text-align: justify;
+    justify-content: left;
+}
+
+.ct-right {
+    text-align: justify;
+    justify-content: flex-end;
+}
+
+.ct-container {
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* QUERY STRIP STYLE */
+.query-container {
+    display: flex;
+    height: 100%; /*So that query-container takes up all remaining height*/
+    width: 50%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    width: 100%;
+    padding-top: 30px;
+}
+
+input {
+    width: 100%;
+}
+
+.search-bar {
+    display: inline;
+    margin: 0;
+    width: 75%;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 15px 0 0 15px;
+    padding: 0 0 0 24px; 
+    font-family: IBM Plex Mono;
+    &::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+      }
+    &:focus {
+        z-index: 2;
+        outline-color: blue;
+        outline-style: solid;
+        outline-width: 2px;
+        outline-offset: -2px;
+    }
+}
+
+button {
+    height: 32px;
+    margin: 0;
+    padding: 0 24px 0 24px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid lightgray;
+    margin-left: -2px;
+    font-family: IBM Plex Mono;
+    &:hover {
+        z-index: 2;
+        outline-color: blue;
+        outline-style: solid;
+        outline-width: 2px;
+        outline-offset: -2px;
+    }
+    &:active {
+        outline-color: blue;
+        color: blue;
+    }
+}
+
+
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: blue;
+}
