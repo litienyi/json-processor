@@ -58,10 +58,14 @@ input {
     width: 100%;
 }
 
+form {
+    width: 100%;
+    display: flex;
+}
+
 .search-bar {
     display: inline;
     margin: 0;
-    width: 75%;
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 15px 0 0 15px;
@@ -82,11 +86,14 @@ input {
 button {
     height: 32px;
     margin: 0;
+    width: 200px;
     padding: 0 24px 0 24px;
     border-radius: 0 15px 15px 0;
     border: 1px solid lightgray;
     margin-left: -2px;
     font-family: IBM Plex Mono;
+    overflow: hidden;
+    white-space: nowrap;
     &:hover {
         z-index: 2;
         outline-color: blue;

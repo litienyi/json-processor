@@ -33,8 +33,22 @@ padding-right: 50px;
 
 h1 {
     text-align: center;
+    font-size: 36px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.properties-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .query-summary {
